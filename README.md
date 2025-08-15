@@ -16,4 +16,4 @@ No frameworks required — just open `index.html` in your browser. Ideal for por
 - JavaScript (ES6+)
 
 ## 🚀 Live Demo
-(If using GitHub Pages, add your link)
+https://vishvadeep-0001.github.io/seoWebsite/
