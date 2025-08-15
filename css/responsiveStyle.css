@@ -1,0 +1,68 @@
+@media (max-width: 1400px) {
+  /* Services */
+  .services_wrapper .service_phone {
+    max-width: 80%;
+  }
+}
+@media (max-width: 1230px) {
+  /*  */
+}
+@media (max-width: 991px) {
+  section {
+    padding: 20px 0;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .header-scrolled {
+    height: auto;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color: var(--bg-white);
+    padding-bottom: 20px;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 15px;
+  }
+  /* Blog */
+  .blog_wrapper .newsletter {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Custom CSS */
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .main-btn {
+    font-size: 13px;
+  }
+}
+@media (max-width: 576px) {
+  .contact_wrapper h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .contact_wrapper form .mb-3 {
+    justify-content: center;
+  }
+  /* Footer Wrapper */
+  .footer_wrapper ul li {
+    text-align: center;
+  }
+}

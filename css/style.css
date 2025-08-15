@@ -1,0 +1,214 @@
+/* Table of contents
+
+1. General 
+2. Navbar
+3. Banner 
+4. Services
+5. blog
+6. Contact
+7. Footer */
+
+/* General Section*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* background color */
+
+  --secondary-color: #f77949;
+  --bg--blue: #37418e;
+  --bg-white: #fff;
+  --bg-dark-blue: #292b70;
+  --bg-gray: #ecf0f9;
+
+  /* text color */
+
+  --text-black: #1f1f1f;
+  --text-blue: #1f294c;
+  --text-gray: #6d6e7b;
+  --text-white: #fff;
+}
+
+body {
+  background-image: url("../images//page-background.jpg");
+  background-size: cover;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  overflow-x: hidden;
+}
+
+/* 1 custom CSS */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-gray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+}
+section {
+  padding: 50px;
+}
+.main-btn {
+  display: inline-block;
+  border-radius: 20px;
+  transition: 0.2s;
+  padding: 10px 37px;
+  background-color: var(--secondary-color);
+  color: var(--text-white);
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+  box-shadow: 0 0 1px rgb(0, 0, 0 / 0%);
+}
+.main-btn:hover {
+  background-color: var(--bg--blue);
+  color: var(--text-white);
+}
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: var(--bg--blue);
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--bg--blue);
+  margin-bottom: 15px;
+  letter-spacing: 0;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--bg--blue);
+  margin-bottom: 15px;
+  letter-spacing: 0;
+}
+p {
+  color: var(--text-gray);
+  font-size: 15px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+input:hover,
+input:focus,
+textarea:focus,
+textarea:hover,
+button {
+  border-color: var(--secondary-color) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* 2 Navbar */
+.header_wrapper .navbar {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.header_wrapper .navbar-brand img {
+  max-width: 150px;
+  height: auto;
+}
+.header_wrapper .navbar-toggler {
+  border: 0;
+}
+.header_wrapper .navbar-toggler:focus {
+  box-shadow: none;
+}
+.header_wrapper .nav-item {
+  margin: 0 10px;
+}
+.header_wrapper .nav-item .nav-link {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-blue);
+  text-transform: uppercase;
+}
+.header_wrapper .nav-item .nav-link.active {
+  color: var(--secondary-color);
+}
+.header-scrolled {
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  background-color: var(--bg-white);
+  -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+  box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+}
+/* 3 Banner */
+.banner_wrapper {
+  padding-top: 100px;
+}
+
+/* 4 Services */
+.services_wrapper h3 span {
+  color: var(--secondary-color);
+}
+.services_wrapper .service_phone {
+  max-width: 70%;
+}
+
+/* 5 Blog */
+.blog_wrapper .newsletter_wrapper {
+  background-color: var(--bg--blue);
+}
+.blog_wrapper .newsletter {
+  width: 50%;
+  margin: auto;
+}
+.blog_wrapper .form-control {
+  background-color: var(--bg-dark-blue);
+  border-color: var(--bg-dark-blue);
+  border-style: solid;
+  border-radius: 26px;
+  color: var(--text-white);
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 10px 32px;
+}
+.blog_wrapper input::placeholder {
+  color: var(--text-white);
+}
+.blog_wrapper a {
+  color: var(--bg--blue);
+  text-decoration: none;
+}
+.blog_wrapper .date,
+.blog_wrapper .card a:hover {
+  color: var(--secondary-color);
+}
+/* 6 Contact */
+.contact_wrapper input,
+.contact_wrapper textarea {
+  background-color: var(--bg-white);
+  border-color: var(--bg-gray);
+  border-radius: 15px;
+  color: var(--text-gray);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px 32px 15px 21px;
+}
+/* 7 Footer */
+.footer_wrapper a{
+  color: var(--text-gray);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer_wrapper a:hover{
+  color: var(--secondary-color);
+}
